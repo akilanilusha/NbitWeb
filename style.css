@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+.header-nav-list {
+    list-style-type: none;
+    display: contents;
+}
+
+.header-nav-list-tems {
+    margin: 5px 10px;
+    float: left;
+    color: maroon;
+}
+.nav-item{
+    padding: 3px 10px;
+}
+.nav-link{
+    color: white !important;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+}
+.country{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background: wheat;
+    margin-left: 14px;
+}
+.navbar-dark {
+    background-color: black;
+    color: white;
+}
+
+.div-header {
+    margin: 20px 10px;
+    padding-left: 20px;
+}
+
+.section1_content {
+    background-color: rgba(255, 255, 255, 0.839);
+    width: 400px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding-left: 40px !important;
+    padding: 20px;
+}
+
+.sec1_button_div {
+    background-color: brown;
+    border: none;
+    padding: 15px;
+    color: white;
+    font-size: 17px;
+}
+
+.Bold_text {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    padding: 20px;
+}
+
+.bold_medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    padding: 20px;
+    padding-top: 0px !important;
+}
+
+.text-div {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.largeRedText {
+    font-size: 30px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: brown;
+    line-height: 50px;
+    margin: 20px 10px;
+
+}
+
+.redhr {
+    border: 3px solid brown;
+    width: 60%;
+    margin: auto;
+    opacity: 1.0;
+
+}
+
+.largeBlackText {
+    font-size: 30px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: black;
+    /* line-height: 50px; */
+    margin: 20px 10px;
+}
+
+.protfolio {
+    margin-top: 50px;
+}
+
+.pp_card {
+    width: 350px !important;
+    border: none !important;
+    height: 300px;
+}
+
+.pp_card a {
+    text-decoration: none;
+    padding: 15px
+}
+
+.pp_img_div {
+    height: 250px;
+}
+
+.card_title_2 {
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.pp_img_div_company {
+    height: 200px;
+    justify-content: center;
+
+}
+
+section {
+    margin-top: 30px;
+}
+
+.solutiomSection {
+    margin-top: 40px !important;
+    background-color: rgb(200, 200, 200);
+    /* height: 300px; */
+}
+
+.circle {
+    /* justify-content: center; */
+    position: relative;
+    width: 650px;
+    height: 650px;
+    border-radius: 50%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.text {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+}
+
+.text span {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    font-size: 30px;
+    
+    transform-origin: 0 325px;
+}
+.middletxt{
+    font-size: 30px;
+    color: brown;
+}
+
+.contact_button{
+    border: none;
+    background-color: brown;
+    padding: 15px 50px;
+    font-size: 20px;
+    color: white;
+    margin-top: 30px;
+}
+.contact{
+    margin: 60px;
+}
+
+.footer-div{
+    text-align: center;
+    color: white;
+}
+footer{
+    padding:60px 10px;
+}
+footer a{
+    color: white;
+}
+@media screen and (max-width: 600px) {
+
+    .largeRedText,
+    .largeBlackText {
+
+        line-height: normal;
+        text-align: justify;
+        font-size: 20px;
+    }
+
+    .redhr {
+        margin: 10px;
+
+    }
+}
